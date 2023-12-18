@@ -1,0 +1,213 @@
+.container {
+  max-width: 1200px;
+  padding: 0px 100px;
+  margin: auto;
+}
+
+.section1 {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+.section1 .sectio2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.section1 .logo {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  background: url(https://preview.colorlib.com/theme/drimo/drimo/img/logo-6.png.webp);
+}
+.section1 .menu {
+  width: 650px;
+}
+.section1 .menu ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.section1 .menu ul li {
+  font-size: 20px;
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+}
+.section1 .menu ul li :hover {
+  color: #7db9e8;
+}
+.section1 .menu ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.section3 {
+  width: 100%;
+  background: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg.webp);
+  background-size: cover;
+  padding-top: 275px;
+  padding-bottom: 190px;
+}
+.section3 .section4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.section3 .section4 .text {
+  width: 500px;
+}
+.section3 .section4 .text h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+.section3 .section4 .text h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.72px;
+  padding: 25px 0px 25px 0px;
+}
+.section3 .section4 .text .yazi {
+  color: white;
+  font-size: 20px;
+}
+.section3 .section4 .text ul {
+  margin-top: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section3 .section4 .text li {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.section3 .section4 .text a {
+  text-decoration: none;
+  color: white;
+}
+.section3 .section4 .text .btn {
+  width: 200px;
+  height: 40px;
+  background: #fc5a1a;
+  border: 1px solid #fc5a1a;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+  cursor: pointer;
+  color: white;
+}
+.section3 .section4 .text .btn .btn :hover {
+  background-color: #be3d09;
+}
+.section3 .section4 .picture {
+  width: 500px;
+  height: 400px;
+  background: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-shap.png.webp);
+  background-size: cover;
+}
+
+.section5 {
+  width: 100%;
+  height: 800px;
+}
+.section5 .section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.section5 .section6 .basliq {
+  width: 400px;
+  text-align: center;
+}
+.section5 .section6 .basliq h3 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.section5 .section6 .basliq .yazi2 {
+  letter-spacing: 0.28px;
+  font-size: 15px;
+  color: #6b6d6f;
+}
+.section5 .section6 .cartlar {
+  width: 100%;
+  height: 580px;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.section5 .section6 .cartlar .cart {
+  width: 250px;
+  height: 300px;
+}
+.section5 .section6 .cartlar .cart .cart1 {
+  width: 250px;
+  height: 280px;
+  text-align: center;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section5 .section6 .cartlar .cart .cart1 .img {
+  width: 60px;
+  height: 60px;
+}
+.section5 .section6 .cartlar .cart .cart1 .yazi1 {
+  color: #6b6d6f;
+  font-size: 15px;
+}
+.section5 .section6 .cartlar .cart .cart1 h4 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #424242;
+  padding: 25px 0px 18px 0px;
+}
+
+.section7 {
+  width: 100%;
+  height: 500px;
+  background-color: #7db9e8;
+}
+.section7 .section8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.section7 .section8 .basliq2 {
+  width: 500px;
+  height: 170px;
+  background-color: blueviolet;
+}
+.section7 .section8 .basliq2 h5 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+.section7 .section8 .basliq2 .yazi3 {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
